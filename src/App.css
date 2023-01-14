@@ -1,0 +1,121 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.colors {
+  position: relative;
+}
+
+#container {
+  position: absolute;
+  left: 100px;
+  right: 100px;
+  top: 150px;
+
+}
+
+#container canvas,
+#overlay {
+  position: relative;
+}
+
+.color {
+  display: inline-block;
+  height: 48px;
+  width: 48px;
+}
+
+.color.black {
+  height: 45px;
+  width: 45px;
+
+  border-radius: 50%;
+  display: inline-block;
+  background-color: black;
+}
+
+.color.red {
+  height: 45px;
+  width: 45px;
+
+  border-radius: 50%;
+  display: inline-block;
+  background-color: red;
+}
+
+.color.green {
+  height: 45px;
+  width: 45px;
+
+  border-radius: 50%;
+  display: inline-block;
+  background-color: green;
+}
+
+.color.blue {
+  height: 45px;
+  width: 45px;
+
+  border-radius: 50%;
+  display: inline-block;
+  background-color: blue;
+}
+
+.color.white {
+  height: 45px;
+  width: 45px;
+  border-color: black;
+  border-radius: 100%;
+  display: inline-block;
+  background-color: white;
+}
+
+.color.yellow {
+  height: 45px;
+  width: 45px;
+
+  border-radius: 50%;
+  display: inline-block;
+  background-color: yellow;
+}
