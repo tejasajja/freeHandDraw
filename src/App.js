@@ -174,7 +174,7 @@ function App() {
           //const event = new Event('draw');
           if (fingup[1] === 1 && fingup[2] === 0) {
             console.log("Drawing mode")
-            drawLine(((current.x - rect.left)), ((current.y - rect.top)), (((x1 * 1000) - rect.left)), (((y1 * 1000) - rect.top)), current.color, true)
+            drawLine(((current.x)), ((current.y)), (((x1 * 1000))), (((y1 * 1000))), current.color, true)
             current.x = (x1 * 1000);
             current.y = (y1 * 1000);
 
