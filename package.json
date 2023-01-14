@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://github.com/tejasajja/freeHandArt.git",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@mediapipe/camera_utils": "^0.3.1640029074",
